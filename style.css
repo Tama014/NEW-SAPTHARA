@@ -1,0 +1,147 @@
+*, 
+html {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    
+}
+
+.container-navbar {
+    background-color: rgb(243, 230, 217);
+    width: 100%;
+    height: 10vh;
+    z-index: 2;
+}
+
+.ul-navbar {
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+.li-navbar {
+    list-style-type: none;
+    padding: 1%;
+    margin: 5px;
+    font-size: 30px;
+    z-index: 2;
+}
+
+#biodata {
+    background:  rgb(243, 230, 217);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 30px;
+    height: fit-content;
+    border-radius: 80px;
+}
+
+.li-navbar:hover {
+    background-color: rgb(242, 174, 16);
+    transition: .5 ease-in-out;
+    transition-delay: .3;
+    border-radius: 80px;
+    z-index: 2;
+}
+
+.a-navbar {
+    color: white;
+    text-decoration: none;
+    font-weight: 800;
+    z-index: 2;
+}
+
+.container-footer {
+    background-color: rgb(0, 165, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+.h2-footer {
+    font-size: 30px;
+    display:flex;
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    z-index: 2;
+}
+
+.container-content {
+    background-color: rgb(243, 230, 217);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    z-index: 2;
+}
+
+.about-page .container-content a {
+    background-color: rgb(243, 230, 217);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: auto;
+    z-index: 3;
+}
+
+.a-container {
+    border-radius: 80px;
+    box-shadow: 15px 15px 20px -3px rgba(0,0,0,0.74);
+    -webkit-box-shadow: 15px 15px 20px -3px rgba(0,0,0,0.74);
+    -moz-box-shadow: 15px 15px 20px -3px rgba(0,0,0,0.74);
+    z-index: 2;
+}
+
+.img-content {
+    position: absolute;
+    width: 300;
+    height: 300;
+    border-radius: 80px;
+    z-index: 2;
+}
+
+.about-page.img-content {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-radius: 80px;
+    padding-top: 50%;
+    z-index: 3;
+}
+
+.about-page.img-content {
+    display: block;
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.about-page.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+}
